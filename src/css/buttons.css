@@ -1,0 +1,16 @@
+.button {
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 150px;
+    padding: 20px;
+    font-weight: 900;
+    color: brown;
+    border-radius: 30px;
+    border-color: transparent;
+    background-color: lightblue;
+}
+
+.button:hover {
+    background-color: aqua;
+}
