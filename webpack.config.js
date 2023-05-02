@@ -22,7 +22,7 @@ module.exports = {
     entry: ["@babel/polyfill", path.resolve(__dirname, 'src', 'index.js')],
     output: {
       path: path.resolve(__dirname, 'dist'),
-      workerPublicPath: '',
+      workerPublicPath: 'https://olehhurzhii.github.io/color-switcher-from-goit-school-hw-11/',
       filename: './bundle.js',
     },
     plugins: [
